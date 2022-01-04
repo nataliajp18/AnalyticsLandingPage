@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;500&family=Fruktur&family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+button{
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color:#FFFFFF;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+/* Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+    padding: 75px 185px;
+    flex-wrap: wrap;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin-left:20px;
+}
+
+a:hover{
+    color:#B3B2B7;
+}
+
+header>a{
+    display: none;
+}
+
+a{
+    text-decoration: none; 
+    color:#242E52;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0;
+}
+
+button:hover{
+    background-color: #F9D0BE  ;
+}
+
+/*Main*/
+
+/*Main Section I*/
+
+main section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 125px, 165px;
+    flex-wrap: wrap;
+}
+
+.tituloprincipal{
+    color: #232C50;
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.description{
+    color: #000000;
+    font-size: 16px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+main button{
+    margin-top: 30px;
+    padding: 12px 25px;
+}
+
+/*Main Section II*/
+
+h4{
+    color:#323851;
+    font-weight: 700;
+    padding-left: 20px;
+    }
+
+main section div.concepto{
+    color:#232851;
+    font-weight:700;
+    font-size: 35px;
+    padding-bottom: 35px;
+    width: 100%;
+}
+
+div article span{
+    display: inline-block;
+    background-color: #F3603B;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+
+main section div.numeracion{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+main section div.funcionalidades{
+    color:#000000;
+}
+
+main section article.explicaciones{
+    color:#B3B2B7;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+/*Main Section III*/
+
+main section.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.tarjetas h3{
+    color:#242E53;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 75px;
+    padding-top: 130px;
+}
+
+main section.tarjetas div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main section.tarjetas div article{
+    /*margin-left: 30px;*/
+    width: 445px;
+    color:#B3B2B7;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+/*Footer*/
+
+/*Footer Section I*/
+
+footer{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer section div.banner1{
+    display: flex;
+    background-color: #F3613C;
+    margin-top:180px ;
+    padding: 64px 195px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+footer div p{
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer section button{
+    background-color:#FFFFFF;
+    color:#F3603B;
+}
+
+/*Footer Section II*/
+
+footer section div.banner2{
+    display: flex;
+    background-color:#1E1E26;
+    padding: 64px 67px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+footer nav{
+    text-align: justify
+}
+
+footer section i{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 65px;
+    margin: 13px;
+}
+
+footer section i:hover{
+    color: #F3603B;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+footer a{
+    margin-top: 12px;
+    color: #FFFFFF;
+}
+
+footer section div div.menuNavegacion{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.comunity{
+    margin-left: 40px;
+}
+
+input[type=text]{
+    padding: 12px;
+    border-radius:50px;
+    margin-right: 9px;
+}
+
+input[type=submit]{
+    padding: 12px 24px;
+    border-radius:50px;
+    border-color: none;
+    background-color: #F3603B;
+    color: #FFFFFF;
+}
+
+input[type=submit]:hover{
+    background-color: #F9D0BE;
+}
+
+.elipsis{
+    display: none;
+}
+
+/*Footer Section II*/
+
+footer section.derechosAutor{
+    background-color:#1E1E26;
+    color:#8C8C94 ;
+    font-size: 13px;
+    text-align: right;
+    padding: 0px 165px 53px 0px;
+}
+
+/*Responsive*/
+
+@media(max-width:375px){
+
+    header{
+        padding: 40px 0px 40px 15px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header>a{
+        display:inline;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    header button{
+        display: none;
+    }
+    
+    main section.boxUno{
+        flex-direction: column-reverse;
+    }
+
+    main section div img.estadisticas{
+        width: 100%;
+    }
+
+
+    main section div div.tituloprincipal{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    main section div div.description{
+        font-size: 13px;
+        color: #8C8C94;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .botonMain{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    main section div div.concepto{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    main section div div.funcionalidades{
+        font-size: 15px;
+        color: #8C8C94;
+        text-align: center;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    main section div article.explicaciones{
+        font-size: 13px;
+        padding: 3px;
+        line-height: 25px;
+        width: 100%;
+    }
+
+    main section div.numeracion{
+        background-color: #FDE5DB;
+        padding-bottom: 0px;
+        margin-bottom:10px;
+        margin-top: 20px;
+    }
+
+    main section.tarjetas h3{
+        font-size: 25px;
+        font-weight: 800;
+        padding-top:60px;
+        text-align: center;
+    }
+
+    .avatarUno{
+        display: none;
+    }
+
+    .avatarTres{
+        display: none;
+    }
+
+    .avatarDos h4{
+        background-color: #FFFFFF;
+        line-height: 25px;
+    }
+
+    .avatarDos p{
+        padding:15px;
+        font-size: 15px;
+    }
+
+    footer section div.banner1{
+        padding: 0px;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    footer section div.banner2{
+        padding: 0px;
+        padding-top: 40px;
+    }
+
+    footer section div.banner1 div p{
+        font-size: 25px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    footer section div.banner2{
+        flex-direction: column;
+    }
+
+    footer section i{
+        font-size: 25px;
+        padding: 0px;
+    }
+
+    footer section div.banner2{
+        flex-direction: column-reverse;
+    }
+    
+    input[type=text]{
+        margin-top: 20px;
+    }
+
+    footer section.derechosAutor{
+        padding: 0px;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .elipsis{
+        display: inline;
+        text-align: center;
+    }
+
+    footer section ul.comunit{
+        padding-right: 50px;
+    }
+
+    footer section div.iconsLogo{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+
+    footer section div.logoFinal{
+        padding-top: 30px;
+    }
+}
